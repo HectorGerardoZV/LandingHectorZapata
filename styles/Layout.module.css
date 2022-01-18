@@ -1,0 +1,14 @@
+.area{
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+
+
+
+.main main{
+    height: 100%;
+}

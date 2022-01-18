@@ -1,0 +1,106 @@
+.bar{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding:7rem 2rem;
+    box-shadow: var(--shadow);
+    width: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.separator{
+    width: 90%;
+    margin: 0 auto;
+    height: .5rem;
+    background-color: #000;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+.image{
+    width: 4rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.navegation{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 7rem;
+
+}
+
+.navegation a{
+    padding: 1.4rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #000;
+    background-color: var(--color-bg);
+    font-size: 2rem;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: .2s ease;
+}
+
+.navegation a:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact{
+    cursor: pointer;
+    border: none;
+    padding: 1.4rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #000;
+    background-color: var(--color-bg);
+    font-size: 2rem;
+    box-shadow: var(--shadow);
+    transition: .2s ease;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact_img{
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    cursor: pointer;
+}
+.icons_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.icons_section a{
+    animation: animationContact;
+    animation-timing-function: 1s;
+    animation-duration: .5s;
+    animation-delay: 0s;
+    
+}
+
+.icons_section a:hover{
+    background-color: var(--color-bg);   
+}
+
+@keyframes animationContact {
+    0%{
+        opacity: 0;
+        margin-top: -5rem;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}

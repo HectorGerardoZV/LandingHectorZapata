@@ -3,6 +3,12 @@
     width: 80%;
 }
 
+.area{
+    padding: 3rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: var(--shadow);
+}
 .h1{
     text-align: center;
     font-size: 4rem;
@@ -14,44 +20,38 @@
 
 
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: white;
-    box-shadow: var(--shadow);    
-    border-radius: 2rem;
-    padding: 5rem;
 
-}
 .image{
-    width: 80%;
-    margin: 0 auto;
-    animation: animationContact;
-    animation-timing-function: 2s;
-    animation-duration: 1s;
-    animation-delay: 0s;
+    width: 70%;
 }
 
 .image img{
     border-radius: 2rem;
-    transition: .2s ease;
 }
-.image img:hover{
-    border-radius: 0rem;
+
+.section_1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    animation: animationContact;
+    animation-timing-function: 1s;
+    animation-duration: .5s;
+    animation-delay: 0s;
 }
-.content{
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    line-height: 1.5;
+.section_2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
     animation: animationContact;
     animation-timing-function: 1s;
     animation-duration: .5s;
     animation-delay: 0s;
 
 }
-
 
 @keyframes animationContact {
     0%{
