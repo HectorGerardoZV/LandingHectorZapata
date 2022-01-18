@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Me = () => {
     return (
         <main className={style.mainContent} >
-            <h1 className={style.h1}>Holaaaa! soy Héctor</h1>
+            <h1 className={style.h1}>Hiiiiii!!, I'm Hector Zapata </h1>
             <div className={style.grid}>
                 <div className={style.image}>
                     <Image
@@ -17,18 +17,18 @@ const Me = () => {
 
                 </div>
                 <div className={style.content}>
-                    <p>Hola soy Héctor  Gerardo Zapata Vázquez, nací en
-                        Monterrey Nuevo Leon, México y actualmente tengo
-                        20 años, bien venido a mi paginal personal, espero
-                        que sea de tu agrado y me conozcas un poco mejor.</p>
-                    <p>Estudie la preparatoria en el Colegio De Bachilleres
-                        Del Estado De Sonora o “COBACH Obregon 3”,
-                        actualmente me encuentro estudiando la carrera de
-                        ingeniería en software en ITSON obregon.</p>
-                    <p>Soy una persona que le gusta mucho el estudio,
-                        aprender cosas nuevas y trabajar en equipo, adoro
-                        el diseño y programar, tambien me gusta mucho
-                        leer y salir a pasear en bicicleta.</p>
+                    <p>Hi, I'm Héctor Gerardo Zapata Vázquez, I was born in
+                        Monterrey Nuevo Leon, Mexico and currently I have
+                        20 years welcome to my personal page, I hope
+                        That is to your liking and you know me a little better.</p>
+                    <p>Study high school at Colegio De Bachilleres
+                        From the State of Sonora or "COBACH Obregon 3",
+                        I'm currently studying for a degree in
+                        software engineering at ITSON Obregon.</p>
+                    <p>I'm a person who likes studying very much.
+                        learn new things and work as a team, I love
+                        the design and programming, I also like a lot
+                        read and go for a bike ride.</p>
 
                 </div>
             </div>

@@ -23,12 +23,12 @@ const Navegation = () => {
             </div>
             <div className={style.separator}></div>
             <nav className={style.navegation}>
-                <Link href={"/"}>Sobre Mi</Link>
+                <Link href={"/"}>About Me</Link>
                 <Link href={"/hobbies"}>Hobbies</Link>
                 <button className={style.contact}
                     onClick={contact}
                 >
-                    Contactame</button>
+                    Contact Me</button>
                 {
                     open ? (
                         <div className={style.icons_section}>
